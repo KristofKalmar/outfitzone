@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OutfitZone</string>
+    <string name="title_home">Főoldal</string>
+    <string name="title_search">Keresés</string>
+    <string name="title_more">Több</string>
+    <string name="navigation_cart">Kosár</string>
+    <string name="navigation_card">Kártya</string>
+    <string name="navigation_settings">Beállítások</string>
+    <string name="navigation_orders">Rendelések</string>
+    <string name="navigation_location">Szállítási cím</string>
+    <string name="welcome">Üdvözlet!</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="firstname">Keresztnév</string>
+    <string name="lastname">Vezetéknév</string>
+    <string name="email">E-mail</string>
+    <string name="password">Jelszó</string>
+    <string name="profile_picture">Profilkép</string>
+    <string name="upload">Feltöltés</string>
+    <string name="only_strings">A mező csak betűket tartalmazhat!</string>
+    <string name="incorrect_email">A megadott e-mail cím helytelen!</string>
+    <string name="password_weak">A jelszónak legalább 6 karakter hosszúnak kell lennie, és tartalmaznia kell egy számot!</string>
+    <string name="empty_field">A mező nem lehet üres!</string>
+    <string name="user_registered">Egy felhasználó már regisztrált ezzel az e-mail címmel!</string>
+    <string name="bad_email">Nem található felhasználó ezzel az e-mail címmel!</string>
+    <string name="bad_password">Helytelen jelszó!</string>
+    <string name="bad_auth">A megadott e-mail cím vagy jelszó helytelen!</string>
+    <string name="logout">Kijelentkezés</string>
+</resources>

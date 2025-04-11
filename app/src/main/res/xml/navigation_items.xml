@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item>
+        <title>@string/navigation_cart</title>
+        <image>cart</image>
+    </item>
+    <item>
+        <title>@string/navigation_orders</title>
+        <image>trolley</image>
+    </item>
+    <item>
+        <title>@string/navigation_card</title>
+        <image>card</image>
+    </item>
+    <item>
+        <title>@string/navigation_location</title>
+        <image>location</image>
+    </item>
+    <item>
+        <title>@string/navigation_settings</title>
+        <image>settings</image>
+    </item>
+</items>

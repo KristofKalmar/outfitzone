@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982823020806",
+    "project_id": "outfitzone-14a89",
+    "storage_bucket": "outfitzone-14a89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982823020806:android:c125937fc8a9ed831d9687",
+        "android_client_info": {
+          "package_name": "com.kristofkalmar.outfitzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl8g-bVRQLmeAScUfn-QbNi3MGb5qLKmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
