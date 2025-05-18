@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_card_image"
+        android:layout_width="64dp"
+        android:layout_height="0dp"
+        android:background="@drawable/image_rounded"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/border_container"
+        app:layout_constraintEnd_toStartOf="@+id/content_container"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/border_container"
+        app:layout_constraintEnd_toStartOf="@+id/fav_icon_container"
+        app:layout_constraintStart_toEndOf="@+id/item_card_image"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/item_card_name"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:layout_height="wrap_content"
+                android:text="Tommy Hilfiger Átmeneti Dzseki - M"
+                android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/item_card_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_card_name">
+
+            <TextView
+                android:id="@+id/item_card_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:text="16.000 Ft"
+                android:textSize="12dp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/item_card_buy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:background="#00FFFFFF"
+                android:text="@string/cart"
+                android:textColor="@color/brand_lighter"
+                android:textFontWeight="600"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fav_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/border_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.kristofkalmar.outfitzone.ui.components.numberpicker.NumberPickerHorizontal
+            android:id="@+id/number_picker"
+            android:layout_width="96dp"
+                android:layout_height="32dp"
+        />
+
+        <ImageView
+            android:id="@+id/fav_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/border_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:id="@+id/navigation_item_border"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/border" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
